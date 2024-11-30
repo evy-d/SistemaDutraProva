@@ -4,9 +4,6 @@
  */
 package view;
 
-import java.text.ParseException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import tools.Util;
 /**
@@ -17,6 +14,8 @@ public class JDlgVendaProduto_ed extends javax.swing.JDialog {
 
     /**
      * Creates new form jDglVenda
+     * @param parent
+     * @param modal
      */
     public JDlgVendaProduto_ed(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
@@ -238,8 +237,8 @@ public class JDlgVendaProduto_ed extends javax.swing.JDialog {
     }//GEN-LAST:event_jBtnCancelar_edActionPerformed
 
     private void jBtnPesquisar_edActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisar_edActionPerformed
-        //        String resp = JOptionPane.showInputDialog(null, "Entre com o codigo");
-        //        JOptionPane.showMessageDialog(null, resp);
+      JDlgPesquisaVendaProduto jDlgPesquisaVendaProduto = new JDlgPesquisaVendaProduto(null, true);
+      jDlgPesquisaVendaProduto.setVisible(true);
     }//GEN-LAST:event_jBtnPesquisar_edActionPerformed
 
     /**

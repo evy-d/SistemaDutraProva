@@ -22,6 +22,8 @@ public class JDlgProduto_ed extends javax.swing.JDialog {
 
     /**
      * Creates new form jDlgUsuario
+     * @param parent
+     * @param modal
      */
     public JDlgProduto_ed(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
@@ -269,8 +271,8 @@ public class JDlgProduto_ed extends javax.swing.JDialog {
     }//GEN-LAST:event_jBtnCancelar_edActionPerformed
 
     private void jBtnPesquisar_edActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisar_edActionPerformed
-//        String resp = JOptionPane.showInputDialog(null, "Entre com o codigo");
-//        JOptionPane.showMessageDialog(null, resp);
+        JDlgPesquisarProduto jDlgPesquisarProduto = new JDlgPesquisarProduto(null, true);
+        jDlgPesquisarProduto.setVisible(true);
     }//GEN-LAST:event_jBtnPesquisar_edActionPerformed
 
     /**

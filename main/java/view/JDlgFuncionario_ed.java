@@ -19,6 +19,8 @@ public class JDlgFuncionario_ed extends javax.swing.JDialog {
     private MaskFormatter mascaraDataContratacao;
     /**
      * Creates new form jDglCliente
+     * @param parent
+     * @param modal
      */
     public JDlgFuncionario_ed(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
@@ -295,8 +297,8 @@ public class JDlgFuncionario_ed extends javax.swing.JDialog {
     }//GEN-LAST:event_jBtnCancelar_edActionPerformed
 
     private void jBtnPesquisar_edActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisar_edActionPerformed
-//        String resp = JOptionPane.showInputDialog(null, "Entre com o codigo");
-//        JOptionPane.showMessageDialog(null, resp);
+        JDlgPesquisarFuncionario jDlgPesquisarFuncionario = new JDlgPesquisarFuncionario(null, true);
+        jDlgPesquisarFuncionario.setVisible(true);
     }//GEN-LAST:event_jBtnPesquisar_edActionPerformed
 
     private void jBtnIncluir_edActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnIncluir_edActionPerformed
@@ -352,15 +354,42 @@ public class JDlgFuncionario_ed extends javax.swing.JDialog {
                     break;
                 }
             }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(JDlgFuncionario_ed.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(JDlgFuncionario_ed.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(JDlgFuncionario_ed.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(JDlgFuncionario_ed.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>

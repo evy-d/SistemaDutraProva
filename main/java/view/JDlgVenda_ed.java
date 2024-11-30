@@ -3,12 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JDialog.java to edit this template
  */
 package view;
-import java.text.ParseException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+
 import javax.swing.JOptionPane;
-import javax.swing.text.DefaultFormatterFactory;
-import javax.swing.text.MaskFormatter;
 import tools.Util;
 /**
  *
@@ -18,6 +14,8 @@ public class JDlgVenda_ed extends javax.swing.JDialog {
 
     /**
      * Creates new form jDglVenda
+     * @param parent
+     * @param modal
      */
     public JDlgVenda_ed(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
@@ -293,8 +291,8 @@ public class JDlgVenda_ed extends javax.swing.JDialog {
     }//GEN-LAST:event_jBtnConfirmar_edActionPerformed
 
     private void jBtnPesquisar_edActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisar_edActionPerformed
-        //        String resp = JOptionPane.showInputDialog(null, "Entre com o codigo");
-        //        JOptionPane.showMessageDialog(null, resp);
+        JDlgPesquisarVenda jDlgPesquisarVenda = new JDlgPesquisarVenda(null, true);
+        jDlgPesquisarVenda.setVisible(true);
     }//GEN-LAST:event_jBtnPesquisar_edActionPerformed
 
     private void jBtnCancelar_edActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnCancelar_edActionPerformed

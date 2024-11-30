@@ -281,27 +281,8 @@ public class JDlgUsuario_ed extends javax.swing.JDialog {
     }//GEN-LAST:event_jBtnCancelar_edActionPerformed
 
     private void jBtnPesquisar_edActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisar_edActionPerformed
-        /*String resp = JOptionPane.showInputDialog(null, "Entre com o Código de Usuário");
-        if(resp == null) {
-            JOptionPane.showMessageDialog(null, "Código em branco");
-        } else {
-            UsuarioDAO usuarioDAO = new UsuarioDAO();
-            int cod = Integer.valueOf(resp);
-            Usuario_ed usuario = (Usuario_ed) usuarioDAO.list(cod);
-            String cad = String.valueOf(usuario.getId_usuario_ed());
-            jTxtCodigo_ed.setText(cad);
-            jTxtNome_ed.setText(usuario.getNome_ed());
-            jTxtApelido_ed.setText(usuario.getApelido_ed());
-            jFmtCPF_ed.setText(usuario.getCpf_ed());
-            jFmtDataNasc_ed.setText(null);
-            jPwfSenha_ed.setText(usuario.getSenha_ed());
-            jCboNivel_ed.setSelectedIndex(usuario.getNivel_ed());
-            if(usuario.getAtivo_ed().equals("S") == true){
-                jChbAtivo_ed.setSelected(true);
-            } else {
-                jChbAtivo_ed.setSelected(false);
-            }
-        }*/
+        JDlgPesquisarUsuario jDlgPesquisarUsuario = new JDlgPesquisarUsuario(null, true);
+        jDlgPesquisarUsuario.setVisible(true);
     }//GEN-LAST:event_jBtnPesquisar_edActionPerformed
 
     private void jTxtCodigo_edActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtCodigo_edActionPerformed

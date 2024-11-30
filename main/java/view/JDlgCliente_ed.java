@@ -412,8 +412,8 @@ public class JDlgCliente_ed extends javax.swing.JDialog {
     }//GEN-LAST:event_jBtnCancelar_edActionPerformed
 
     private void jBtnPesquisar_edActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisar_edActionPerformed
-//        String resp = JOptionPane.showInputDialog(null, "Entre com o codigo");
-//        JOptionPane.showMessageDialog(null, resp);
+        JDlgPesquisarCliente jDlgPesquisarCliente = new JDlgPesquisarCliente(null, true);
+        jDlgPesquisarCliente.setVisible(true);
     }//GEN-LAST:event_jBtnPesquisar_edActionPerformed
 
     /**
